@@ -1,0 +1,205 @@
+2020-03-17 00:23:17,611 [main] INFO  com.example.demo.xm.DemoApplication [Line:50 ] - Starting DemoApplication on 爸爸的学习空间 with PID 20104 (started by H Z in S:\Google下载\demo)
+2020-03-17 00:23:17,613 [main] INFO  com.example.demo.xm.DemoApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-17 00:23:18,226 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-17 00:23:18,312 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 668 ms
+2020-03-17 00:23:18,423 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 00:23:18,475 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [Line:558] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.addDefaultHandlerExceptionResolvers(Ljava/util/List;)V
+2020-03-17 00:23:18,475 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 00:23:18,487 [main] WARN  o.s.b.c.e.EventPublishingRunListener [Line:138] - Error calling ApplicationEventListener
+java.lang.NoSuchMethodError: ch.qos.logback.classic.LoggerContext.removeObject(Ljava/lang/String;)V
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.markAsUninitialized(LogbackLoggingSystem.java:320) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.cleanUp(LogbackLoggingSystem.java:214) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationFailedEvent(LoggingApplicationListener.java:247) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:158) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.failed(EventPublishingRunListener.java:128) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.callFailedListener(SpringApplicationRunListeners.java:91) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.failed(SpringApplicationRunListeners.java:84) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:828) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.demo.xm.DemoApplication.main(DemoApplication.java:10) [classes/:na]
+2020-03-17 00:23:18,504 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [Line:42 ] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.configureHandlerExceptionResolvers(WebMvcAutoConfiguration.java:559)
+
+The following method did not exist:
+
+    org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.addDefaultHandlerExceptionResolvers(Ljava/util/List;)V
+
+The method's class, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration, is available from the following locations:
+
+    jar:file:/C:/Users/H%20Z/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/H%20Z/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+
+2020-03-17 00:24:28,553 [main] INFO  com.example.demo.xm.DemoApplication [Line:50 ] - Starting DemoApplication on 爸爸的学习空间 with PID 17428 (started by H Z in S:\Google下载\demo)
+2020-03-17 00:24:28,556 [main] INFO  com.example.demo.xm.DemoApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-17 00:24:29,188 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-17 00:24:29,274 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 688 ms
+2020-03-17 00:24:29,398 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 00:24:29,463 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [Line:558] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.addDefaultHandlerExceptionResolvers(Ljava/util/List;)V
+2020-03-17 00:24:29,463 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 00:24:29,471 [main] WARN  o.s.b.c.e.EventPublishingRunListener [Line:138] - Error calling ApplicationEventListener
+java.lang.NoSuchMethodError: ch.qos.logback.classic.LoggerContext.removeObject(Ljava/lang/String;)V
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.markAsUninitialized(LogbackLoggingSystem.java:320) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.cleanUp(LogbackLoggingSystem.java:214) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationFailedEvent(LoggingApplicationListener.java:247) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:158) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) [spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.failed(EventPublishingRunListener.java:128) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.callFailedListener(SpringApplicationRunListeners.java:91) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.failed(SpringApplicationRunListeners.java:84) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:828) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.demo.xm.DemoApplication.main(DemoApplication.java:10) [classes/:na]
+2020-03-17 00:24:29,488 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [Line:42 ] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.configureHandlerExceptionResolvers(WebMvcAutoConfiguration.java:559)
+
+The following method did not exist:
+
+    org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.addDefaultHandlerExceptionResolvers(Ljava/util/List;)V
+
+The method's class, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration, is available from the following locations:
+
+    jar:file:/C:/Users/H%20Z/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/H%20Z/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+
+2020-03-17 00:42:36,329 [main] INFO  com.example.demo.xm.DemoApplication [Line:50 ] - Starting DemoApplication on 爸爸的学习空间 with PID 13924 (started by H Z in S:\Google下载\demo)
+2020-03-17 00:42:36,332 [main] INFO  com.example.demo.xm.DemoApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-17 00:42:36,987 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-17 00:42:36,995 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-17 00:42:37,001 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-17 00:42:37,002 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-17 00:42:37,064 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-17 00:42:37,065 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 706 ms
+2020-03-17 00:42:37,199 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 00:42:37,297 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-17 00:42:37,306 [main] ERROR o.apache.catalina.util.LifecycleBase [Line:175] - Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.demo.xm.DemoApplication.main(DemoApplication.java:10) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_191]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_191]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_191]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_191]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_191]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1116) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1202) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	... 14 common frames omitted
+2020-03-17 00:42:37,309 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-17 00:42:37,309 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Stopping service [Tomcat]
+2020-03-17 00:42:37,312 [main] INFO  o.apache.catalina.util.LifecycleBase [Line:173] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-03-17 00:42:37,313 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-17 00:42:37,313 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-17 00:42:37,315 [main] ERROR o.s.boot.SpringApplication [Line:98 ] - Error handling failed
+java.lang.NoSuchMethodError: ch.qos.logback.classic.LoggerContext.removeObject(Ljava/lang/String;)V
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.markAsUninitialized(LogbackLoggingSystem.java:320) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.cleanUp(LogbackLoggingSystem.java:214) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationFailedEvent(LoggingApplicationListener.java:247) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.failed(EventPublishingRunListener.java:116) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.callFailedListener(SpringApplicationRunListeners.java:91) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.failed(SpringApplicationRunListeners.java:84) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:828) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.demo.xm.DemoApplication.main(DemoApplication.java:10) [classes/:na]
+2020-03-17 00:42:37,317 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [Line:42 ] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2020-03-17 00:42:37,318 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [Line:1012] - Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.NoSuchMethodError: ch.qos.logback.classic.LoggerContext.removeObject(Ljava/lang/String;)V
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.markAsUninitialized(LogbackLoggingSystem.java:320) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.cleanUp(LogbackLoggingSystem.java:214) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onContextClosedEvent(LoggingApplicationListener.java:241) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:209) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) [spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) [spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009) [spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975) [spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:834) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.demo.xm.DemoApplication.main(DemoApplication.java:10) [classes/:na]
+2020-03-17 00:42:37,319 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:208] - Shutting down ExecutorService 'applicationTaskExecutor'

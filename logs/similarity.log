@@ -1,0 +1,476 @@
+2020-03-22 21:17:28,209 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 12936 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 21:17:28,216 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 21:17:28,796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:17:28,807 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:17:28,814 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 21:17:28,815 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 21:17:28,872 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:17:28,872 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 633 ms
+2020-03-22 21:17:28,979 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:17:29,093 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:17:29,211 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:17:29,213 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.189 seconds (JVM running for 1.789)
+2020-03-22 21:20:16,905 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 21:20:16,906 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 21:20:16,911 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 5 ms
+2020-03-22 21:22:17,748 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 2996 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 21:22:17,751 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 21:22:18,382 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:22:18,392 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:22:18,400 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 21:22:18,400 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 21:22:18,455 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:22:18,455 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 681 ms
+2020-03-22 21:22:18,557 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:22:18,674 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:22:18,810 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:22:18,813 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.23 seconds (JVM running for 1.872)
+2020-03-22 21:22:36,548 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 21:22:36,549 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 21:22:36,553 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 4 ms
+2020-03-22 21:24:22,852 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 14100 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 21:24:22,854 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 21:24:23,416 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:24:23,426 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:24:23,434 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 21:24:23,434 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 21:24:23,489 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:24:23,489 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 614 ms
+2020-03-22 21:24:23,598 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:24:23,704 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:24:23,820 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:24:23,822 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.131 seconds (JVM running for 1.689)
+2020-03-22 21:24:27,616 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 21:24:27,618 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 21:24:27,622 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 4 ms
+2020-03-22 21:26:44,446 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 12312 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 21:26:44,447 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 21:26:44,996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:26:45,005 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:26:45,012 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 21:26:45,012 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 21:26:45,073 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:26:45,073 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 606 ms
+2020-03-22 21:26:45,198 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:26:45,327 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:26:45,456 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:26:45,458 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.169 seconds (JVM running for 1.742)
+2020-03-22 21:26:58,489 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 21:26:58,490 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 21:26:58,495 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 5 ms
+2020-03-22 21:31:25,378 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 9484 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 21:31:25,380 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 21:31:25,919 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:31:25,929 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:31:25,937 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 21:31:25,937 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 21:31:26,003 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:31:26,003 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 596 ms
+2020-03-22 21:31:26,123 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:31:26,241 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:31:26,357 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:31:26,359 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.146 seconds (JVM running for 1.725)
+2020-03-22 21:31:31,368 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 21:31:31,368 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 21:31:31,373 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 5 ms
+2020-03-22 21:36:03,843 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 9808 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 21:36:03,846 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 21:36:04,532 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:36:04,541 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:36:04,547 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 21:36:04,547 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 21:36:04,611 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:36:04,611 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 736 ms
+2020-03-22 21:36:04,744 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:36:04,882 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:36:04,900 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:36:04,903 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.294 seconds (JVM running for 1.979)
+2020-03-22 21:36:09,561 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 21:36:09,562 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 21:36:09,565 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 3 ms
+2020-03-22 21:36:28,183 [http-nio-8080-exec-7] INFO  c.e.d.x.s.w.h.sememe.SememeParser [Line:71 ] - complete! count num:1736. time spend:28ms
+2020-03-22 21:36:28,388 [http-nio-8080-exec-7] INFO  c.e.d.x.s.w.h.concept.ConceptParser [Line:100] - complete! count num:66191，time spend:204ms
+2020-03-22 23:18:59,648 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 16316 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:18:59,650 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:19:00,311 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:19:00,321 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:19:00,327 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:19:00,328 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:19:00,384 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:19:00,384 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 707 ms
+2020-03-22 23:19:00,512 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:19:00,628 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:19:00,643 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:19:00,645 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.209 seconds (JVM running for 1.803)
+2020-03-22 23:19:31,812 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 13696 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:19:31,815 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:19:32,444 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:19:32,454 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:19:32,459 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:19:32,460 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:19:32,524 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:19:32,524 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 683 ms
+2020-03-22 23:19:32,655 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:19:32,772 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:19:32,787 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:19:32,789 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.186 seconds (JVM running for 1.901)
+2020-03-22 23:27:16,265 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 488 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:27:16,268 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:27:16,903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:27:16,912 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:27:16,918 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:27:16,918 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:27:16,975 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:27:16,975 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 679 ms
+2020-03-22 23:27:17,098 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:27:17,219 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:27:17,234 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:27:17,236 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.19 seconds (JVM running for 1.809)
+2020-03-22 23:30:56,730 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 8800 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:30:56,733 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:30:57,369 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:30:57,378 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:30:57,383 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:30:57,384 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:30:57,438 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:30:57,438 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 673 ms
+2020-03-22 23:30:57,554 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:30:57,663 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:30:57,677 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:30:57,678 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.16 seconds (JVM running for 1.888)
+2020-03-22 23:33:11,518 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 5408 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:33:11,520 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:33:12,204 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:33:12,214 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:33:12,221 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:33:12,221 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:33:12,283 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:33:12,283 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 734 ms
+2020-03-22 23:33:12,410 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:33:12,522 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:33:12,535 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:33:12,537 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.216 seconds (JVM running for 1.808)
+2020-03-22 23:33:59,733 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 23:33:59,733 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 23:33:59,738 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 4 ms
+2020-03-22 23:33:59,818 [http-nio-8080-exec-1] WARN  HanLP [Line:184] - 读取data/dictionary/custom/CustomDictionary.txt.bin时发生异常java.io.FileNotFoundException: 资源文件/data/dictionary/custom/CustomDictionary.txt.bin不存在于jar中
+2020-03-22 23:33:59,844 [http-nio-8080-exec-1] WARN  HanLP [Line:134] - 自定义词典data/dictionary/custom/CustomDictionary.txt缓存失败！
+java.lang.IllegalArgumentException: 不支持写入jar包资源路径data/dictionary/custom/CustomDictionary.txt.bin
+	at com.hankcs.hanlp.corpus.io.ResourceIOAdapter.create(ResourceIOAdapter.java:30)
+	at com.hankcs.hanlp.corpus.io.IOUtil.newOutputStream(IOUtil.java:596)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.loadMainDictionary(CustomDictionary.java:110)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.<clinit>(CustomDictionary.java:53)
+	at com.hankcs.hanlp.seg.Segment.combineByCustomDictionary(Segment.java:199)
+	at com.hankcs.hanlp.seg.Viterbi.ViterbiSegment.segSentence(ViterbiSegment.java:57)
+	at com.hankcs.hanlp.seg.Segment.seg(Segment.java:514)
+	at com.hankcs.hanlp.tokenizer.StandardTokenizer.segment(StandardTokenizer.java:50)
+	at com.hankcs.hanlp.HanLP.segment(HanLP.java:547)
+	at com.example.demo.xm.tokenizer.Tokenizer.segment(Tokenizer.java:47)
+	at com.example.demo.xm.controller.SegmentController.getsegment(SegmentController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-03-22 23:35:10,281 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 12720 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:35:10,283 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:35:10,971 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:35:10,980 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:35:10,987 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:35:10,988 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:35:11,044 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:35:11,045 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 735 ms
+2020-03-22 23:35:11,167 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:35:11,271 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:35:11,283 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:35:11,285 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.224 seconds (JVM running for 1.825)
+2020-03-22 23:35:29,137 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 23:35:29,137 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 23:35:29,141 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 4 ms
+2020-03-22 23:35:29,221 [http-nio-8080-exec-1] WARN  HanLP [Line:184] - 读取data/dictionary/custom/CustomDictionary.txt.bin时发生异常java.io.FileNotFoundException: 资源文件/data/dictionary/custom/CustomDictionary.txt.bin不存在于jar中
+2020-03-22 23:35:29,247 [http-nio-8080-exec-1] WARN  HanLP [Line:134] - 自定义词典data/dictionary/custom/CustomDictionary.txt缓存失败！
+java.lang.IllegalArgumentException: 不支持写入jar包资源路径data/dictionary/custom/CustomDictionary.txt.bin
+	at com.hankcs.hanlp.corpus.io.ResourceIOAdapter.create(ResourceIOAdapter.java:30)
+	at com.hankcs.hanlp.corpus.io.IOUtil.newOutputStream(IOUtil.java:596)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.loadMainDictionary(CustomDictionary.java:110)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.<clinit>(CustomDictionary.java:53)
+	at com.hankcs.hanlp.seg.Segment.combineByCustomDictionary(Segment.java:199)
+	at com.hankcs.hanlp.seg.Viterbi.ViterbiSegment.segSentence(ViterbiSegment.java:57)
+	at com.hankcs.hanlp.seg.Segment.seg(Segment.java:514)
+	at com.hankcs.hanlp.tokenizer.StandardTokenizer.segment(StandardTokenizer.java:50)
+	at com.hankcs.hanlp.HanLP.segment(HanLP.java:547)
+	at com.example.demo.xm.tokenizer.Tokenizer.segment(Tokenizer.java:47)
+	at com.example.demo.xm.controller.SegmentController.getsegment(SegmentController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-03-22 23:37:13,154 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 16152 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:37:13,156 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:37:13,745 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:37:13,753 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:37:13,758 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:37:13,759 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:37:13,815 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:37:13,816 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 634 ms
+2020-03-22 23:37:13,956 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:37:14,073 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:37:14,086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:37:14,088 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.127 seconds (JVM running for 1.723)
+2020-03-22 23:37:16,199 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 23:37:16,200 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 23:37:16,203 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 3 ms
+2020-03-22 23:37:16,310 [http-nio-8080-exec-1] WARN  HanLP [Line:184] - 读取data/dictionary/custom/CustomDictionary.txt.bin时发生异常java.io.FileNotFoundException: 资源文件/data/dictionary/custom/CustomDictionary.txt.bin不存在于jar中
+2020-03-22 23:37:16,339 [http-nio-8080-exec-1] WARN  HanLP [Line:134] - 自定义词典data/dictionary/custom/CustomDictionary.txt缓存失败！
+java.lang.IllegalArgumentException: 不支持写入jar包资源路径data/dictionary/custom/CustomDictionary.txt.bin
+	at com.hankcs.hanlp.corpus.io.ResourceIOAdapter.create(ResourceIOAdapter.java:30)
+	at com.hankcs.hanlp.corpus.io.IOUtil.newOutputStream(IOUtil.java:596)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.loadMainDictionary(CustomDictionary.java:110)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.<clinit>(CustomDictionary.java:53)
+	at com.hankcs.hanlp.seg.Segment.combineByCustomDictionary(Segment.java:199)
+	at com.hankcs.hanlp.seg.Viterbi.ViterbiSegment.segSentence(ViterbiSegment.java:57)
+	at com.hankcs.hanlp.seg.Segment.seg(Segment.java:514)
+	at com.hankcs.hanlp.tokenizer.StandardTokenizer.segment(StandardTokenizer.java:50)
+	at com.hankcs.hanlp.HanLP.segment(HanLP.java:547)
+	at com.example.demo.xm.tokenizer.Tokenizer.segment(Tokenizer.java:47)
+	at com.example.demo.xm.controller.SegmentController.getsegment(SegmentController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-03-22 23:38:58,002 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 3756 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-03-22 23:38:58,004 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-03-22 23:38:58,704 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 23:38:58,715 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:38:58,722 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-03-22 23:38:58,723 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-03-22 23:38:58,787 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-03-22 23:38:58,788 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 760 ms
+2020-03-22 23:38:58,917 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 23:38:59,041 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 23:38:59,064 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 23:38:59,068 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.299 seconds (JVM running for 1.927)
+2020-03-22 23:39:02,766 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-22 23:39:02,767 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-03-22 23:39:02,769 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 2 ms
+2020-03-22 23:39:02,877 [http-nio-8080-exec-1] WARN  HanLP [Line:184] - 读取data/dictionary/custom/CustomDictionary.txt.bin时发生异常java.io.FileNotFoundException: 资源文件/data/dictionary/custom/CustomDictionary.txt.bin不存在于jar中
+2020-03-22 23:39:02,905 [http-nio-8080-exec-1] WARN  HanLP [Line:134] - 自定义词典data/dictionary/custom/CustomDictionary.txt缓存失败！
+java.lang.IllegalArgumentException: 不支持写入jar包资源路径data/dictionary/custom/CustomDictionary.txt.bin
+	at com.hankcs.hanlp.corpus.io.ResourceIOAdapter.create(ResourceIOAdapter.java:30)
+	at com.hankcs.hanlp.corpus.io.IOUtil.newOutputStream(IOUtil.java:596)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.loadMainDictionary(CustomDictionary.java:110)
+	at com.hankcs.hanlp.dictionary.CustomDictionary.<clinit>(CustomDictionary.java:53)
+	at com.hankcs.hanlp.seg.Segment.combineByCustomDictionary(Segment.java:199)
+	at com.hankcs.hanlp.seg.Viterbi.ViterbiSegment.segSentence(ViterbiSegment.java:57)
+	at com.hankcs.hanlp.seg.Segment.seg(Segment.java:514)
+	at com.hankcs.hanlp.tokenizer.StandardTokenizer.segment(StandardTokenizer.java:50)
+	at com.hankcs.hanlp.HanLP.segment(HanLP.java:547)
+	at com.example.demo.xm.tokenizer.Tokenizer.segment(Tokenizer.java:47)
+	at com.example.demo.xm.controller.SegmentController.getsegment(SegmentController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
