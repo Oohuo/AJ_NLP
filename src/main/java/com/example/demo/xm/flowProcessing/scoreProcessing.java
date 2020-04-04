@@ -1,12 +1,5 @@
 package com.example.demo.xm.flowProcessing;
 
-import com.tencentcloudapi.common.Credential;
-import com.tencentcloudapi.common.exception.TencentCloudSDKException;
-import com.tencentcloudapi.common.profile.ClientProfile;
-import com.tencentcloudapi.common.profile.HttpProfile;
-import com.tencentcloudapi.nlp.v20190408.NlpClient;
-import com.tencentcloudapi.nlp.v20190408.models.KeywordsExtractionRequest;
-import com.tencentcloudapi.nlp.v20190408.models.KeywordsExtractionResponse;
 
 /**
  * @ClassName scoreProcessing
