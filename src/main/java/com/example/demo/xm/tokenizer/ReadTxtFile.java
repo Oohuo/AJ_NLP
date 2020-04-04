@@ -37,8 +37,8 @@ public class ReadTxtFile {
 
 
     public static void main(String[] args) {
-        String filePath = "src/main/resources/wuliucihui.txt";
-        readTxt(filePath);
+
+        readTxt("wuliucihui.txt");
     }
 
 }

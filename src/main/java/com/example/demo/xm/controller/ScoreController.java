@@ -1,7 +1,8 @@
-package com.example.demo.xm.flowProcessing;
+package com.example.demo.xm.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.example.demo.xm.entity.SentenceSimilarityEntity;
+import com.example.demo.xm.flowProcessing.scoreProcessing;
 import com.example.demo.xm.sensitivewdfilter.WordFilter;
 import com.example.demo.xm.similarity.sentence.morphology.SemanticSimilarity;
 import com.example.demo.xm.similarity.text.CosineSimilarity;
@@ -9,12 +10,6 @@ import com.example.demo.xm.similarity.text.TextSimilarity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.Date;
 
 /**
@@ -28,7 +23,7 @@ import java.util.Date;
 
 @RestController
 @RequestMapping(path = "/api")
-public class Score {
+public class ScoreController {
 
     @RequestMapping(value = "/getScore")
     public SentenceSimilarityEntity getSimilarity(@RequestParam(value = "s1", required = false, defaultValue = "1") String s1, @RequestParam(value = "s2", required = false, defaultValue = "1") String s2) {

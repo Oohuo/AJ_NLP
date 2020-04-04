@@ -2,7 +2,6 @@ package com.example.demo.xm.tokenizer;
 
 import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.corpus.io.IOUtil;
-import com.hankcs.hanlp.dictionary.CustomDictionary;
 import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
 import org.slf4j.Logger;
@@ -47,8 +46,8 @@ public class Tokenizer {
         );*/
 
         // HanLP
-        String filePath = "src/main/resources/wuliucihui.txt";
-        readTxt(filePath);
+
+        readTxt("wuliucihui.txt");
         List<Term> termList = HanLP.segment(sentence);
         results.addAll(termList
                 .stream()
