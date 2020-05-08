@@ -2,6 +2,7 @@ package com.example.demo.xm.tokenizer;
 
 import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.corpus.io.IOUtil;
+import com.hankcs.hanlp.dictionary.CustomDictionary;
 import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
 import org.slf4j.Logger;
@@ -47,54 +48,26 @@ public class Tokenizer {
 
         // HanLP
 
-        readTxt("wuliucihui.txt");
+        //readTxt("src/main/resources/wuliucihui.txt");
+
         List<Term> termList = HanLP.segment(sentence);
         results.addAll(termList
                 .stream()
-                .map(term -> new Word(term.word, term.nature.name()))
+                .map(term -> new Word(term.word))
                 .collect(Collectors.toList())
         );
 
         return results;
     }
 
-    public static void fileSegment(String inputFilePath, String outputFilePath) {
-        fileSegment(HanLP.newSegment(), inputFilePath, outputFilePath);
-    }
 
-    public static void fileSegment(Segment segment, String inputFilePath, String outputFilePath) {
-        try {
-            WordFreqStatistics.statistics(segment, inputFilePath);
-            BufferedReader reader = IOUtil.newBufferedReader(inputFilePath);
-            long allCount = 0;
-            long lexCount = 0;
-            long start = System.currentTimeMillis();
-            String outPath = inputFilePath.replace(".txt", "") + "-Segment-Result.txt";
-            if (outputFilePath != null && outputFilePath.trim().length() > 0) outPath = outputFilePath;
-            FileOutputStream fos = new FileOutputStream(new File(outPath));
-            String temp;
-            while ((temp = reader.readLine()) != null) {
-                List<Term> parse = segment.seg(temp);
-                StringBuilder sb = new StringBuilder();
-                for (Term term : parse) {
-                    sb.append(term.toString() + "\t");
-                    if (term.word.trim().length() > 0) {
-                        allCount += term.length();
-                        lexCount += 1;
-                    }
-                }
-                fos.write(sb.toString().trim().getBytes());
-                fos.write("\n".getBytes());
-            }
 
-            fos.flush();
-            fos.close();
-            reader.close();
-            long end = System.currentTimeMillis();
-            System.out.println("segment result save：" + outPath);
-            System.out.println("total " + allCount + " chars, " + lexCount + " words, spend" + (end - start) + "ms ");
-        } catch (IOException e) {
-            logger.error("IO error: " + e.getLocalizedMessage());
-        }
+    public static void main(String[] args) {
+
+
+        System.out.println(segment("伸手党一点好处都没有"));
+        String content = "1，有限的确定性算法。这类算法在有限的一段时间内终止。2，有限的非确定算法。这类算法在有限的时间内终止。3，无限的算法。是那些由于没有定义终止定义条件，或输入的数据满足而不终止运行的算法。";
+        List<String> keywordList = HanLP.extractKeyword(content, 5);
+        System.out.println(keywordList);
     }
 }

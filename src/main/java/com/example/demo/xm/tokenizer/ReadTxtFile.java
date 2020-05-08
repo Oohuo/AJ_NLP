@@ -23,7 +23,8 @@ public class ReadTxtFile {
                 String lineTxt = null;
                 while ((lineTxt = br.readLine()) != null) {
                   CustomDictionary.add(lineTxt);
-                  //System.out.println(lineTxt);
+
+                  System.out.println(lineTxt);
                 }
                 br.close();
             } else {

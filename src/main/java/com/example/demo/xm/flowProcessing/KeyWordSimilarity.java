@@ -2,12 +2,19 @@ package com.example.demo.xm.flowProcessing;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.example.demo.xm.similarity.word.hownet.concept.ConceptSimilarity;
+import com.example.demo.xm.textrank.TextRankKeyword;
+import com.example.demo.xm.tokenizer.Tokenizer;
+import com.example.demo.xm.tokenizer.Word;
 
+import javax.naming.Name;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -68,13 +75,88 @@ public class KeyWordSimilarity {
         //String text1="你是对的";
         //String answer = "你是对的";
 
-        String text1 = "复杂系统、大跨度系统";
-        String answer = "物流系统是复杂系统2、物流系统是大跨度系统";
-
+        String reply = "物流作业系统和物流信息系统";
+        String answer = "物流系统是由物流作业系统和支持物流信息流动的物流信息系统两部分组成";
+        String keywords = "物流作业系统 物流信息系统";
         //String text1="我不得不承认你是对的";
         //String answer = "你是对的";
 
-        String urlNegativeWords = HttpRequest.sendPost("http://47.113.115.243:8080/api/getNegativeWordFilteringInformation", s1 + text1);
+        int replylenth = answerLength.length(reply);
+        int answerlenth = answerLength.length(answer);
+        int keywordlenth = answerLength.length(keywords);
+        System.out.println(replylenth + "*" + answerlenth + "*" + keywordlenth);
+        //获取答案关键词，按空格分开
+        String[] keyword = keywords.split(" ");
+        /*for (int i = 0; i < keyword.length; i++) {
+            System.out.println(keyword[i]);
+
+        }*/
+        System.out.println(Arrays.toString(keyword));
+
+        if (replylenth <= 80) {
+
+            String urlSegment = HttpRequest.sendPost("http://127.0.0.1:8080/api/getsegment", s1+reply);
+
+            JSONObject jsonObject2 = JSONObject.parseObject(urlSegment);
+            JSONArray segments = jsonObject2.getJSONArray("list");
+            String[] replykeywords = new String[segments.size()];
+            for(int i = 0; i < segments.size();i++){
+                String name = (String) segments.getJSONObject(i).get("name");
+                replykeywords[i] = name;
+                //System.out.println(name);
+            }
+            System.out.println(Arrays.toString(replykeywords));
+
+           /* List<Word> result1 =  Tokenizer.segment( reply);
+            //获取回答关键词
+            String[] replykeywords = new String[result1.size()];
+            for(int i = 0; i < result1.size();i++){
+                replykeywords[i] = String.valueOf(result1.get(i));
+            }
+
+            System.out.println(result1);
+*/
+
+            double[][] keywordresult = new double[replykeywords.length][keyword.length];
+            for (int r = 0; r < replykeywords.length; r++) {
+                for (int a = 0; a < keyword.length; a++) {
+                    System.out.println(replykeywords[r]);
+                    System.out.println(keyword[a]);
+                    double similarity = ConceptSimilarity.getInstance().getSimilarity(replykeywords[r], keyword[a]);
+                    System.out.println(similarity);
+                    keywordresult[r][a]=similarity;
+                }
+            }
+
+            System.out.println(Arrays.deepToString(keywordresult));
+            double keywordsult = 0d;
+            double[] keywordresult1 = new double[keywordresult.length*replykeywords.length];
+            int index=0;
+            for (int i = 0; i < keywordresult.length; ++i) {
+                for(int j = 0; j < keywordresult[i].length; j++) {
+                    keywordresult1[index++] =  keywordresult[i][j];
+                }
+            }
+            Arrays.sort(keywordresult1);
+            System.out.println(Arrays.toString(keywordresult1)+"-");
+           /* for (int i1 = keywordresult.length*replykeywords.length; i1 <= keywordresult.length*replykeywords.length-2; i1--) {
+
+                System.out.println(keywordresult1[i1]);
+                keywordsult =keywordresult1[keywordresult.length*replykeywords.length-1]+[keywordresult.length*replykeywords.length-1];
+            }*/
+            keywordsult =keywordresult1[keywordresult.length*replykeywords.length-1]+keywordresult1[keywordresult.length*replykeywords.length-1];
+
+            System.out.println(keyword.length);
+            System.out.println(keywordsult);
+            System.out.println(keywordsult/keyword.length);
+
+
+
+
+        }
+
+
+        /*String urlNegativeWords = HttpRequest.sendPost("http://47.113.115.243:8080/api/getNegativeWordFilteringInformation", s1 + text1);
         System.out.println(urlNegativeWords);
         JSONObject jsonObject1 = JSONObject.parseObject(urlNegativeWords);
         // 获取到key为similarty的值
@@ -87,7 +169,7 @@ public class KeyWordSimilarity {
         JSONArray consineSimilarty = jsonObject2.getJSONArray("list");
         System.out.println(consineSimilarty);
 
-        
+
         double value = 0.0;
         double x = 0.0;
 
@@ -110,7 +192,7 @@ public class KeyWordSimilarity {
 
                 }
             }
-        }
-        System.out.println(value / x / (double) keywordsarray.length);
+        }*/
+//        System.out.println(value / x / (double) keywordsarray.length);
     }
 }

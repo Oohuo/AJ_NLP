@@ -165,7 +165,7 @@ public class SemanticSimilarity implements ISentenceSimilarity {
         } else {
             ordSim = 1.0 - revOrdCount * 1.0 / (onceWSSize - 1);
         }
-        System.out.println("wordSim ==> " + wordSim + ", ordSim ==> " + ordSim);
+        // System.out.println("wordSim ==> " + wordSim + ", ordSim ==> " + ordSim);
         return LAMBDA1 * wordSim + LAMBDA2 * ordSim;
     }
 

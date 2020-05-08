@@ -1,0 +1,98 @@
+2020-04-10 20:18:08,472 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 13644 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 20:18:08,483 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 20:18:09,188 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 20:18:09,202 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 20:18:09,225 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 20:18:09,226 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 20:18:09,309 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 20:18:09,310 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 790 ms
+2020-04-10 20:18:09,455 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 20:18:09,553 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 20:18:09,567 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 20:18:09,569 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.327 seconds (JVM running for 2.235)
+2020-04-10 20:18:30,013 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 20:18:30,013 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-04-10 20:18:30,017 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 4 ms
+2020-04-10 20:30:20,858 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 32868 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 20:30:20,861 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 20:30:21,530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 20:30:21,551 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 20:30:21,560 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 20:30:21,561 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 20:30:21,642 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 20:30:21,642 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 752 ms
+2020-04-10 20:30:21,845 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 20:30:21,972 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 20:30:21,992 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 20:30:21,994 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.399 seconds (JVM running for 2.257)
+2020-04-10 20:30:27,452 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 20:30:27,453 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-04-10 20:30:27,456 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 3 ms
+2020-04-10 20:33:06,943 [http-nio-8080-exec-3] INFO  c.e.d.x.s.w.h.sememe.SememeParser [Line:71 ] - complete! count num:1736. time spend:35ms
+2020-04-10 20:33:07,174 [http-nio-8080-exec-3] INFO  c.e.d.x.s.w.h.concept.ConceptParser [Line:100] - complete! count num:66191，time spend:230ms
+2020-04-10 21:01:03,640 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 45548 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 21:01:03,647 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 21:01:04,548 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 21:01:04,561 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:01:04,567 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 21:01:04,567 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 21:01:04,640 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 21:01:04,640 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 942 ms
+2020-04-10 21:01:04,780 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:01:04,890 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:01:04,907 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 21:01:04,910 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.571 seconds (JVM running for 2.469)
+2020-04-10 21:10:10,044 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 49680 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 21:10:10,047 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 21:10:10,679 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 21:10:10,691 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:10:10,698 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 21:10:10,699 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 21:10:10,813 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 21:10:10,814 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 736 ms
+2020-04-10 21:10:10,977 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:10:11,120 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:10:11,145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 21:10:11,149 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.381 seconds (JVM running for 2.269)
+2020-04-10 21:10:53,643 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 62092 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 21:10:53,647 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 21:10:54,281 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 21:10:54,295 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:10:54,302 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 21:10:54,303 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 21:10:54,379 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 21:10:54,379 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 706 ms
+2020-04-10 21:10:54,500 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:10:54,601 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:10:54,619 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 21:10:54,622 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.226 seconds (JVM running for 2.073)
+2020-04-10 21:11:04,987 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 21:11:04,987 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-04-10 21:11:04,991 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 4 ms
+2020-04-10 21:13:01,781 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 23852 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 21:13:01,784 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 21:13:02,511 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 21:13:02,524 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:13:02,531 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 21:13:02,531 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 21:13:02,611 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 21:13:02,611 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 797 ms
+2020-04-10 21:13:02,737 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 21:13:02,829 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 21:13:02,843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 21:13:02,845 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.301 seconds (JVM running for 2.189)
+2020-04-10 21:13:05,120 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 21:13:05,120 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:524] - Initializing Servlet 'dispatcherServlet'
+2020-04-10 21:13:05,123 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [Line:546] - Completed initialization in 3 ms
+2020-04-10 22:06:02,475 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:50 ] - Starting AJ_NLPApplication on DESKTOP-7G8HBNT with PID 51784 (Z:\project\AJ_NLP\target\classes started by ZH in Z:\project\AJ_NLP)
+2020-04-10 22:06:02,479 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:675] - No active profile set, falling back to default profiles: default
+2020-04-10 22:06:03,358 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:90 ] - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 22:06:03,375 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 22:06:03,385 [main] INFO  o.a.catalina.core.StandardService [Line:173] - Starting service [Tomcat]
+2020-04-10 22:06:03,386 [main] INFO  o.a.catalina.core.StandardEngine [Line:173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-04-10 22:06:03,482 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [Line:173] - Initializing Spring embedded WebApplicationContext
+2020-04-10 22:06:03,482 [main] INFO  o.s.web.context.ContextLoader [Line:296] - Root WebApplicationContext: initialization completed in 969 ms
+2020-04-10 22:06:03,662 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Line:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 22:06:03,817 [main] INFO  o.a.coyote.http11.Http11NioProtocol [Line:173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 22:06:03,843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [Line:204] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 22:06:03,846 [main] INFO  c.example.demo.xm.AJ_NLPApplication [Line:59 ] - Started AJ_NLPApplication in 1.665 seconds (JVM running for 2.81)

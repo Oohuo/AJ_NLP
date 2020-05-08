@@ -9,37 +9,33 @@ import java.util.*;
 
 /**
  * TextRank关键词提取
+ *
  * @author hankcs
  */
-public class TextRankKeyword
-{
-    public static final int nKeyword = 5;
+public class TextRankKeyword {
+    public static final int nKeyword = 3;
     /**
      * 阻尼系数（ＤａｍｐｉｎｇＦａｃｔｏｒ），一般取值为0.85
      */
-    static final float d = 0.80f;
+    static final float d = 0.85f;
     /**
      * 最大迭代次数
      */
-    static final int max_iter = 200;
+    static final int max_iter = 100;
     static final float min_diff = 0.001f;
 
-    public TextRankKeyword()
-    {
+    public TextRankKeyword() {
         // jdk bug : Exception in thread "main" java.lang.IllegalArgumentException: Comparison method violates its general contract!
         System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
     }
 
-    public String getKeyword(String title, String content)
-    {
+    public String getKeyword(String title, String content) {
         List<Term> termList = HanLP.segment(title + content);
         System.out.println(termList);
         List<String> wordList = new ArrayList<String>();
 
-        for (Term t : termList)
-        {
-            if (shouldInclude(t))
-            {
+        for (Term t : termList) {
+            if (shouldInclude(t)) {
                 wordList.add(t.word);
             }
 
@@ -48,24 +44,18 @@ public class TextRankKeyword
         System.out.println(wordList);
         Map<String, Set<String>> words = new HashMap<String, Set<String>>();
         Queue<String> que = new LinkedList<String>();
-        for (String w : wordList)
-        {
-            if (!words.containsKey(w))
-            {
+        for (String w : wordList) {
+            if (!words.containsKey(w)) {
                 words.put(w, new HashSet<String>());
             }
             que.offer(w);
-            if (que.size() > 5)
-            {
+            if (que.size() > 5) {
                 que.poll();
             }
 
-            for (String w1 : que)
-            {
-                for (String w2 : que)
-                {
-                    if (w1.equals(w2))
-                    {
+            for (String w1 : que) {
+                for (String w2 : que) {
+                    if (w1.equals(w2)) {
                         continue;
                     }
 
@@ -74,19 +64,16 @@ public class TextRankKeyword
                 }
             }
         }
-       System.out.println(words);
+        System.out.println(words);
         Map<String, Float> score = new HashMap<String, Float>();
-        for (int i = 0; i < max_iter; ++i)
-        {
+        for (int i = 0; i < max_iter; ++i) {
             Map<String, Float> m = new HashMap<String, Float>();
             float max_diff = 0;
-            for (Map.Entry<String, Set<String>> entry : words.entrySet())
-            {
+            for (Map.Entry<String, Set<String>> entry : words.entrySet()) {
                 String key = entry.getKey();
                 Set<String> value = entry.getValue();
                 m.put(key, 1 - d);
-                for (String other : value)
-                {
+                for (String other : value) {
                     int size = words.get(other).size();
                     if (key.equals(other) || size == 0) continue;
                     m.put(key, m.get(key) + d / size * (score.get(other) == null ? 0 : score.get(other)));
@@ -97,37 +84,33 @@ public class TextRankKeyword
             if (max_diff <= min_diff) break;
         }
         List<Map.Entry<String, Float>> entryList = new ArrayList<Map.Entry<String, Float>>(score.entrySet());
-        Collections.sort(entryList, new Comparator<Map.Entry<String, Float>>()
-        {
+        Collections.sort(entryList, new Comparator<Map.Entry<String, Float>>() {
             @Override
-            public int compare(Map.Entry<String, Float> o1, Map.Entry<String, Float> o2)
-            {
+            public int compare(Map.Entry<String, Float> o1, Map.Entry<String, Float> o2) {
                 return (o1.getValue() - o2.getValue() > 0 ? -1 : 1);
             }
         });
 //        System.out.println(entryList);
         String result = "";
-        for (int i = 0; i < nKeyword; ++i)
-        {
+        for (int i = 0; i < nKeyword; ++i) {
             result += entryList.get(i).getKey() + '#';
         }
         return result;
     }
 
-    public static void main(String[] args)
-    {
-        String content = "程序员(英文Programmer)是从事程序开发、维护的专业人员。一般将程序员分为程序设计人员和程序编码人员，但两者的界限并不非常清楚，特别是在中国。软件从业人员分为初级程序员、高级程序员、系统分析员和项目经理四大类。";
+    public static void main(String[] args) {
+        String content = "1，有限的确定性算法。这类算法在有限的一段时间内终止。2，有限的非确定算法。这类算法在有限的时间内终止。3，无限的算法。是那些由于没有定义终止定义条件，或输入的数据满足而不终止运行的算法。";
         System.out.println(new TextRankKeyword().getKeyword("", content));
 
     }
 
     /**
      * 是否应当将这个term纳入计算，词性属于名词、动词、副词、形容词
+     *
      * @param term
      * @return 是否应当
      */
-    public boolean shouldInclude(Term term)
-    {
+    public boolean shouldInclude(Term term) {
         return CoreStopWordDictionary.shouldInclude(term);
     }
 }
